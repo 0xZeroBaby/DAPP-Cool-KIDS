@@ -4,8 +4,6 @@ import instagramicon from "../assets/icons/instagramicon.png";
 import twittericon from "../assets/icons/twittericon.png";
 import discordicon from "../assets/icons/discordicon.png";
 import ReactFloaterJs from 'react-floaterjs';
-import cklogo from "../assets/icons/cklogo.png";
-import Bounce from "react-reveal/Bounce";
 export default function Opensea() {
   return (
     <div className="opensea">
