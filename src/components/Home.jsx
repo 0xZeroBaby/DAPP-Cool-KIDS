@@ -1,6 +1,5 @@
 import React from "react"
 import gifimage from "../assets/icons/logo-gif.gif";
-import ReactFloaterJs from 'react-floaterjs';
 
 
 export default function Home() {
