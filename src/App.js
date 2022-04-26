@@ -6,7 +6,6 @@ import Roadmap from "./components/Roadmap";
 import Roadmap2 from "./components/Roadmap2";
 import Menu from "./components/Menu";
 import Team from "./components/Team";
-import Mintbar from "./components/Mintbar";
 import Start from "./components/Start";
 import Slider from "./components/Slider";
 import Opensea from "./components/Opensea";
