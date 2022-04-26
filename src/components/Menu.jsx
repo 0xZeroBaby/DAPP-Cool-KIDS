@@ -1,6 +1,4 @@
 import React from "react";
-import mintlogo from "../assets/icons/mint.png";
-import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
 
 export default function Menu() {
