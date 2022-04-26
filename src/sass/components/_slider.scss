@@ -1,0 +1,131 @@
+.slidercontainer {
+    margin-top: 23rem;
+    margin-left: 7rem;
+    display: flex;
+    background: url("/assets/bckgs/legendarybcg.gif");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: initial;
+    justify-content: center;
+    height: 43.5rem;
+    width: 80rem;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 10px;
+    border-image: conic-gradient(red, magenta, blue, aqua, lime, yellow, red) 1;
+
+    
+}
+.slider-title {
+    font-size: 30px;
+    color: var(--accent-color1);
+    text-align: center;
+    margin-top: -25px;
+}
+
+.slider-title-end {
+    display: flex;
+    margin-top: 4.75rem;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 0px;
+}
+
+
+.slider {
+    padding-top: 50px;
+    height: 70rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.slide-track {
+    margin-top: 5.5rem;
+    display: flex;
+    width: calc(300px * 30);
+    animation: scroll 60s linear infinite;
+}
+
+.slide-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-220px * 15));
+    }
+}
+
+.slide-image {
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 90px;
+    perspective: 150px;
+}
+
+.slide-image:hover {
+    transform: scale(2);
+    transition: 1s ease;
+}
+
+img {
+    width: 100%;
+    transition: transform 0.6s;
+    border-radius: 3rem;
+}
+
+.middle {
+    transition: .5s ease;
+    position: absolute;
+    background-color: black;
+    top: 10rem;
+    left: 50%;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px 1px red;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .middletext {
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+  }
+
+  .slide-image:hover .slide {
+    opacity: 1;
+  }
+  
+  .slide-image:hover .middle {
+    opacity: 1;
+  }
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 4%;
+    z-index: 2;
+}
+
+.slider::before  {
+    left: 0;
+    top: 0;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+

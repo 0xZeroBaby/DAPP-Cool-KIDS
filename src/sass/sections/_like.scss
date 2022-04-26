@@ -1,0 +1,41 @@
+.like {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3.5rem;
+    width: 10rem;
+    .content1 {
+      background: url("/assets/banners/banner-like-left.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      text-align: right;
+      gap: 1rem;
+      padding: 1rem;
+      border-radius: 1rem;
+    }
+      .content2 {
+        background: url("/assets/banners/banner-like-right.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        text-align: left;
+      }
+      }
+      .title {
+        color: var(--accent-color1);
+      }
+      .description {
+        color: var(--accent-color1);
+        letter-spacing: 0.1rem;
+        line-height: 1.5rem;
+        font-size: 20px;
+      }
+    }

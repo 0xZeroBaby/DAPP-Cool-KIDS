@@ -1,0 +1,161 @@
+.intro {
+  margin-top: 8rem;
+  margin-left: 35rem;
+  justify-content: center;
+  .container {
+    display: flex;
+    background: url("/assets/banners/banner-intro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 20rem;
+    width: 1100px;
+    overflow: hidden;
+    border-radius: 3rem;
+    z-index: 1;
+    .content {
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      padding-top: 2.8rem;
+      padding-left: 2rem;
+      font-size: 1.3rem;
+      color: var(--accent-color1);
+      .title {
+        font-size: 2rem;
+      }
+    }
+  }
+  .instaphone {
+    width: 550px;
+    height: 100px;
+    margin-left: 72rem;
+    position: absolute;
+    margin-top: 22rem;
+    transform: rotate(10deg);
+    img:hover {
+      transform: rotate(-20deg), scale(1.2);
+    }
+  }
+  .cards {
+    display: flexbox;
+    position: absolute;
+    top: -10rem;
+    right: 35%;
+    img {
+      width: 180px;
+      height: 180px;
+    }
+    .card1 {
+      position: absolute;
+      transform: rotate(-10deg);
+      z-index: 3;
+      font-size: 0.7rem;
+    }
+    .card10 {
+      position: absolute;
+      transform: rotate(-10deg);
+      z-index: 3;
+      padding-top: 155.8rem;
+      padding-left: 8rem;
+      font-size: 0.7rem;
+    }
+    .card11 {
+      position: absolute;
+      transform: rotate(10deg);
+      z-index: 3;
+      padding-top: 200.8rem;
+      padding-left: 38rem;
+      font-size: 0.7rem;
+    }
+    .card2 {
+      top: 20rem;
+      z-index: 2;
+      position: absolute;
+      right: -6em;
+      transform: rotate(-10deg);
+      font-size: 0.7rem;
+    }
+    .card3 {
+      z-index: 2;
+      position: absolute;
+      left: 24rem;
+      top: 10rem;
+      transform: rotate(13deg);
+      font-size: 0.7rem;
+    }
+    .card4 {
+      z-index: 2;
+      position: absolute;
+      left: 15rem;
+      top: 30rem;
+      transform: rotate(13deg);
+      font-size: 0.7rem;
+    }
+    .card5 {
+      position: absolute;
+      transform: rotate(13deg);
+      right: 59rem;
+      top: 37rem;
+      z-index: 3;
+      font-size: 0.7rem;
+    }
+    .card6 {
+      top: 20rem;
+      z-index: 2;
+      position: absolute;
+      right: 86rem;
+      top: 35rem;
+      transform: rotate(-10deg);
+      font-size: 0.7rem;
+    }
+    .card7 {
+      z-index: 2;
+      position: absolute;
+      right: 32rem;
+      top: 36rem;
+      transform: rotate(-13deg);
+      font-size: 0.7rem;
+
+    }
+    .card8 {
+      z-index: 2;
+      position: absolute;
+      right: 0rem;
+      top: 162rem;
+      transform: rotate(13deg);
+      font-size: 0.7rem;
+    }
+    .card9 {
+      z-index: 2;
+      position: absolute;
+      left: 6rem;
+      top: 179rem;
+      transform: rotate(13deg);
+      font-size: 0.7rem;
+  }
+}
+.card1:hover {
+  transform: scale(2); /* When the card is hovered, the image inside of it is scaled up. Important for the zoom effect. */
+}
+.card2:hover {
+  transform: scale(2); /* When the card is hovered, the image inside of it is scaled up. Important for the zoom effect. */
+}
+.card4:hover {
+  transform: scale(2); /* When the card is hovered, the image inside of it is scaled up. Important for the zoom effect. */
+}
+.card5:hover {
+  transform: scale(2); /* When the card is hovered, the image inside of it is scaled up. Important for the zoom effect. */
+}
+.card6:hover {
+  transform: scale(2); /* When the card is hovered, the image inside of it is scaled up. Important for the zoom effect. */
+}
+.card7:hover {
+  transform: scale(2); /* When the card is hovered, the image inside of it is scaled up. Important for the zoom effect. */
+}
+.card9:hover {
+  transform: scale(2); /* When the card is hovered, the image inside of it is scaled up. Important for the zoom effect. */
+}
+}

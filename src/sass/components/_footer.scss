@@ -1,0 +1,28 @@
+footer {
+  margin-top: 6.85rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+
+  .copyright {
+    color: var(--accent-color1);
+    align-items: center;
+    justify-items: center;
+    font-size: 18px;
+    height: 1.7rem;
+    width: 26rem;
+    font-weight: bolder;
+  }
+  [data-theme="light"] {
+    footer {
+      .brand-container {
+        .brand {
+          img {
+            filter: brightness(0);
+          }
+        }
+      }
+    }
+  }
+}

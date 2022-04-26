@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Bebas+Neue&display=swap");
+:root {
+  --orange: #ff8139;
+  --pink: #ff3998;
+  --green: #39ffa0;
+  --red: #ff3939;
+  --light-green: #edfff6;
+  --light-orange: #fff0e8;
+  --accent-color1: #ffffff;
+  --accent-color2: #555555;
+  --accent-color3: #cccccc;
+  --accent-color4: black;
+  --accent-color5: yellowgreen;
+  --shadow-color: #555555;
+  --background: #000000;
+  --font-family: 'Akshar', sans-serif;
+}
+
+[data-theme="light"] {
+  --background: white;
+  --accent-color1: #000000;
+  --accent-color2: #eeeeee;
+  --accent-color3: black;
+  --accent-color4: #acbbcc;
+  --accent-color5: yellowgreen;
+  --card-color: blue;
+  --shadow-color: #555555;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.app-container {
+  background-color: #000000;
+  background-image: url("/assets/bckgs/test1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: var(--font-family);
+  overflow-x:hidden;
+  transition: 0.5s ease-in-out;
+  display: flexbox;
+  letter-spacing: 0.3px;
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    width: 2150px;
+    height: 3080px;
+  }
+}
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 1080px) {
+  .app-container::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: #111111;
+  width: 0.0rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--orange);
+}

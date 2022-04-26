@@ -1,0 +1,23 @@
+.mintbar-container {
+    height: 4rem;
+    width: 160rem;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .mint-title {
+        font-size: 28px;
+        color: white;
+        display: flex;
+        font-weight: bold;
+    }
+    .mintlogo {
+        width: 175px;
+        height: 50px;
+    }
+
+    .mintlogo:hover {
+        transform: scale(1.20);
+    }
+}
+

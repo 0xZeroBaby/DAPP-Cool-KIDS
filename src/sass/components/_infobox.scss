@@ -1,0 +1,49 @@
+  .infobox{
+    position:absolute;
+    height: 25rem;
+    width: 40rem;
+    margin-left:90.3rem;
+    margin-top: 8rem;
+    clip-path: circle(10% at 90% 20%);
+    transition: all ease-in-out .3s;
+    background-color:#ffffff;
+    
+    &__infoicon{
+      position:absolute;
+      top:30px;
+      left: 32.85rem;
+      font-size:1.4em;
+      color:#000000;
+      img {
+          width: 100px;
+          height: 100px;
+      }
+    }
+    &__infotitle{
+      padding: 1rem;
+      margin-top: 0rem;
+      font-size: 3.2rem;
+      font-weight: bold;
+    }
+    &__infodescription{
+      padding: 1rem;
+      font-size: 1.3rem;
+    }
+    &:hover, &:focus{
+      clip-path: circle(75%);
+      border-radius:20px;
+      box-shadow: 0px 3px 9px rgba(0,0,0,0.12),
+                  0px 3px 18px rgba(0,0,0,0.08);
+      background:#ffffff;
+      
+      outline:none;
+      .infobox__{
+        opacity: 0;
+      }
+    }
+    &:focus{
+      box-shadow: 0px 3px 9px rgba(0,0,0,0.12), 
+                  0px 3px 18px rgba(0,0,0,0.08), 
+                  0px 0px 0px 4px rgba(0,0,0,0.2);
+    }
+  }
