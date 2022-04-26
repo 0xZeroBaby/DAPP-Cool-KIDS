@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import teamlogo from "../assets/icons/teamlogo.png"
 import team1 from "../assets/teams/team1.png";
 import team2 from "../assets/teams/team2.png";
